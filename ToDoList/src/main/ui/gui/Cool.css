@@ -1,0 +1,40 @@
+.root{
+    -fx-background-color: black;
+    -fx-font-family: Verdana, Geneva, sans-serif;
+    -fx-border-color: grey;
+}
+.label {
+    -fx-text-fill: #ebebeb;
+}
+.button {
+    -fx-background-color: #565656;
+    -fx-text-fill: #ebebeb;
+}
+.button:hover {-fx-background-color: #ec9b00
+}
+
+.table-column {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+
+}
+.table-row {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-selection-bar: #ec9b00;
+}
+.table-view{
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-selection-bar: #ec9b00;
+    -fx-selection-bar-non-focused:#ec9b00;
+}
+
+.text-field {
+    -fx-background-color: #565656;
+    -fx-text-fill: white;
+    -fx-font-family: Verdana, Geneva, sans-serif;
+}
+
